@@ -6,7 +6,6 @@ let cor2 = "aqua";
 let corAux = "";
 function toggleElementColor(){
 
-  //let guardaValor = document.getElementById("absolute-1");
   let absolute1 = document.getElementById("absolute-1");
   let absolute2 = document.getElementById("absolute-2");
 
