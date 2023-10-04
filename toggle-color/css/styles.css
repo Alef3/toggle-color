@@ -1,0 +1,55 @@
+.relative-container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid salmon;
+  margin-top: 120px;
+  position: relative;
+}
+
+#absolute-1, #absolute-2 {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  position: absolute;
+}
+
+#absolute-1 {
+top: 2px;
+left: 2px;
+}
+
+#absolute-2 {
+  bottom: 2px;
+  right:2px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-start {
+  /* display: flex; */
+  background-color: greenyellow;
+  border: 3px solid rgb(140, 209, 37);
+  border-radius: 16px;
+  padding: 8px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+#btn-stop {
+  /* display: flex; */
+  background-color: red;
+  border: 3px solid rgb(216, 0, 0);
+  border-radius: 16px;
+  padding: 8px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  pointer-events: none;
+}
